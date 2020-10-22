@@ -11,9 +11,7 @@ class BookList extends Component {
 				{
 					books.map((book) => {
 						return (
-							<li key={book.id}>
-								<BookListItem book={book}/>
-							</li>
+							<li key={book.id}><BookListItem book={book}/></li>
 						);
 					})
 				}
