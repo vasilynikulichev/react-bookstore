@@ -8,14 +8,14 @@ const reducer = (state = initialState, action) => {
 	switch (action.type) {
 		case 'FETCH_BOOKS_REQUEST':
 			return {
-				books: [],
-				loading: true,
+				books: action.payload,
+				loading: false,
 				error: null,
 			};
 		case 'FETCH_BOOKS_SUCCESS':
 			return {
-				books: action.payload,
-				loading: false,
+				books: [],
+				loading: true,
 				error: null,
 			};
 		case 'FETCH_BOOKS_FAILURE':

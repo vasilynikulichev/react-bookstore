@@ -4,14 +4,14 @@ export default class BookstoreService {
 			id: 1,
 			title: "Eloquent JavaScript, Second Edition",
 			author: "Marijn Haverbeke",
-			price: 100,
+			price: 20,
 			coverImage: 'https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX381_BO1,204,203,200_.jpg',
 		},
 		{
 			id: 2,
 			title: "Learning JavaScript Design Patterns",
 			author: "Addy Osmani",
-			price: 500,
+			price: 50,
 			coverImage: 'https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX381_BO1,204,203,200_.jpg',
 
 		},
@@ -19,7 +19,7 @@ export default class BookstoreService {
 			id: 3,
 			title: "Speaking JavaScript",
 			author: "Axel Rauschmayer",
-			price: 350,
+			price: 35,
 			coverImage: 'https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX381_BO1,204,203,200_.jpg',
 
 		},

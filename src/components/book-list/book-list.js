@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+
 import BookListItem from '../book-list-item';
-import Spinner from "../spinner";
+import Spinner from '../spinner';
+import ErrorIndicator from '../error-indicator';
 
 import { withBookstoreService } from '../hoc';
 import { fetchBooks } from '../../actions';
 import { compose } from '../../utils';
 
 import './book-list.css';
-import ErrorIndicator from "../error-indicator";
 
 class BookList extends Component {
 	componentDidMount() {
