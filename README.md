@@ -1,1 +1,1 @@
-react training project
+A small training app using react and redux
